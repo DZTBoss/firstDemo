@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 /*
 *
-* 这是第一个git项目的第一次修改
+* 这是第一个git项目的第一次修改 (练习冲突的一次修改,我是服务端)
 * */
 @Controller
 public class StuController {
