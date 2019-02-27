@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dzt.beforedemo.mapper.StuDao">
+    <select id="findList" resultType="com.dzt.beforedemo.entity.Student">
+        select stu.*,sc.* from student stu left join school sc on stu.s_id=sc.sid where 1=1
+        <if test="params.name !=null and params.name !=''">
+            AND stu.name like concat('%',#{params.name},'%')
+        </if>
+    </select>
+</mapper>
