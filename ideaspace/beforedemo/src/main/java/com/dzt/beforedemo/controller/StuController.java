@@ -18,6 +18,7 @@ import java.util.Map;
 * 这是第一个git项目的第一次修改 (练习冲突的一次修改,我是服务端)
 >>>>>>> b55eafcd3735e4d32b29f7a7278131ffdd63f65a
 我再一次的进行更改
+我 down下来代码后的又一次修改
 * */
 @Controller
 public class StuController {
